@@ -1,12 +1,16 @@
-# Markdown Support for Visual Studio Code
+# MDX Support for Visual Studio Code
 
-[![version](https://img.shields.io/vscode-marketplace/v/yzhang.markdown-all-in-one.svg?style=flat-square&label=vscode%20marketplace)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+<!-- [![version](https://img.shields.io/vscode-marketplace/v/yzhang.markdown-all-in-one.svg?style=flat-square&label=vscode%20marketplace)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 [![installs](https://img.shields.io/vscode-marketplace/d/yzhang.markdown-all-in-one.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 [![AppVeyor](https://img.shields.io/appveyor/ci/yzhang-gh/vscode-markdown.svg?style=flat-square&label=appveyor%20build)](https://ci.appveyor.com/project/yzhang-gh/vscode-markdown)
 [![GitHub stars](https://img.shields.io/github/stars/yzhang-gh/vscode-markdown.svg?style=flat-square&label=github%20stars)](https://github.com/yzhang-gh/vscode-markdown)
 [![GitHub Contributors](https://img.shields.io/github/contributors/yzhang-gh/vscode-markdown.svg?style=flat-square)](https://github.com/yzhang-gh/vscode-markdown/graphs/contributors)
 
-All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
+-->
+
+All you need for ~~Markdown~~ MDX (keyboard shortcuts, table of contents, auto preview and more).
+
+NOTE: This is currently just a quick and dirty repurposing of the fantastic Markdown-All-In-One from @yzhang - so far most of the changes are just a wholly inelegant find and replace of `markdown` to `mdx` where it seemed relevant. Things probably break if you dig deep enough, but so far they seem to be working. 🤞
 
 ## Features
 

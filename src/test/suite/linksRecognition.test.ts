@@ -8,7 +8,7 @@ suite("LinkRecognition.", () => {
 
     const links = [
         'https://github.com/gliderlabs/docker-alpine/blob/master/docs/usage.md#disabling-cache',
-        'https://github.com/yzhang-gh/vscode-markdown/commit/bc50362b9bf86e298bd455c3cb7fad42dc550a45',
+        'https://github.com/jpgls/vscode-mdx/commit/bc50362b9bf86e298bd455c3cb7fad42dc550a45',
         'https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B8%D0%B7%D0%BC_(%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)',
         'http://тест.рф',
 
