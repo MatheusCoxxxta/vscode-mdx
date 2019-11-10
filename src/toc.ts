@@ -12,8 +12,8 @@ const tocConfig = { startDepth: 1, endDepth: 6, listMarker: '-', orderedList: fa
 
 export function activate(context: vscode.ExtensionContext) {
     context.subscriptions.push(
-        vscode.commands.registerCommand('markdown.extension.toc.create', createToc),
-        vscode.commands.registerCommand('markdown.extension.toc.update', updateToc),
+        vscode.commands.registerCommand('mdx.extension.toc.create', createToc),
+        vscode.commands.registerCommand('mdx.extension.toc.update', updateToc),
         vscode.workspace.onWillSaveTextDocument(onWillSave),
         vscode.languages.registerCodeLensProvider(mdDocSelector, new TocCodeLensProvider())
     );

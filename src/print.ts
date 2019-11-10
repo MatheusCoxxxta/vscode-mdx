@@ -82,7 +82,7 @@ let thisContext: vscode.ExtensionContext;
 export function activate(context: vscode.ExtensionContext) {
     thisContext = context;
     context.subscriptions.push(
-        vscode.commands.registerCommand('markdown.extension.printToHtml', () => { print('html'); }),
+        vscode.commands.registerCommand('mdx.extension.printToHtml', () => { print('html'); }),
         vscode.workspace.onDidSaveTextDocument(onDidSave)
     );
 }

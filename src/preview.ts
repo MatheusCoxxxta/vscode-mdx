@@ -17,7 +17,7 @@ export function activate(context: ExtensionContext) {
 
     // Override default preview keybindings (from 'open preview' to 'toggle preview' i.e. 'open/close preview')
     context.subscriptions.push(
-        commands.registerCommand('markdown.extension.togglePreview', () => {
+        commands.registerCommand('mdx.extension.togglePreview', () => {
             let editor = window.activeTextEditor;
             if (!editor) {
                 commands.executeCommand('workbench.action.closeActiveEditor');
@@ -25,7 +25,7 @@ export function activate(context: ExtensionContext) {
                 commands.executeCommand('markdown.showPreview');
             }
         }),
-        commands.registerCommand('markdown.extension.togglePreviewToSide', () => {
+        commands.registerCommand('mdx.extension.togglePreviewToSide', () => {
             let editor = window.activeTextEditor;
             if (!editor) {
                 commands.executeCommand('workbench.action.closeActiveEditor');

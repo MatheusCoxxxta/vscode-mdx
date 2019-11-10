@@ -5,19 +5,19 @@ import { isInFencedCodeBlock } from './util';
 
 export function activate(context: ExtensionContext) {
     context.subscriptions.push(
-        commands.registerCommand('markdown.extension.onEnterKey', onEnterKey),
-        commands.registerCommand('markdown.extension.onCtrlEnterKey', () => { onEnterKey('ctrl'); }),
-        commands.registerCommand('markdown.extension.onShiftEnterKey', () => { onEnterKey('shift'); }),
-        commands.registerCommand('markdown.extension.onTabKey', onTabKey),
-        commands.registerCommand('markdown.extension.onShiftTabKey', () => { onTabKey('shift'); }),
-        commands.registerCommand('markdown.extension.onBackspaceKey', onBackspaceKey),
-        commands.registerCommand('markdown.extension.checkTaskList', checkTaskList),
-        commands.registerCommand('markdown.extension.onMoveLineDown', onMoveLineDown),
-        commands.registerCommand('markdown.extension.onMoveLineUp', onMoveLineUp),
-        commands.registerCommand('markdown.extension.onCopyLineDown', onCopyLineDown),
-        commands.registerCommand('markdown.extension.onCopyLineUp', onCopyLineUp),
-        commands.registerCommand('markdown.extension.onIndentLines', onIndentLines),
-        commands.registerCommand('markdown.extension.onOutdentLines', onOutdentLines)
+        commands.registerCommand('mdx.extension.onEnterKey', onEnterKey),
+        commands.registerCommand('mdx.extension.onCtrlEnterKey', () => { onEnterKey('ctrl'); }),
+        commands.registerCommand('mdx.extension.onShiftEnterKey', () => { onEnterKey('shift'); }),
+        commands.registerCommand('mdx.extension.onTabKey', onTabKey),
+        commands.registerCommand('mdx.extension.onShiftTabKey', () => { onTabKey('shift'); }),
+        commands.registerCommand('mdx.extension.onBackspaceKey', onBackspaceKey),
+        commands.registerCommand('mdx.extension.checkTaskList', checkTaskList),
+        commands.registerCommand('mdx.extension.onMoveLineDown', onMoveLineDown),
+        commands.registerCommand('mdx.extension.onMoveLineUp', onMoveLineUp),
+        commands.registerCommand('mdx.extension.onCopyLineDown', onCopyLineDown),
+        commands.registerCommand('mdx.extension.onCopyLineUp', onCopyLineUp),
+        commands.registerCommand('mdx.extension.onIndentLines', onIndentLines),
+        commands.registerCommand('mdx.extension.onOutdentLines', onOutdentLines)
     );
 }
 
